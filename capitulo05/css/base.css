@@ -1,0 +1,111 @@
+h1 {
+  font-family: "Lobster", cursive;
+}
+
+h2 {
+  font-family: "Press Start 2P", cursive;
+}
+
+.grid{
+  width:1170px;
+  margin: 0 auto;
+}
+
+.icon-next::after{
+  content: '\2192';
+  font-family: 'IconicFill';
+  margin-left: 10px;
+}
+
+.icon-ok {
+  color: #489D00;
+}
+
+.icon-ok::before {
+  content: "\2714";
+  font-family: 'IconicFill';
+  margin-right: 10px;
+}
+
+.icon-invalid {
+  color: #990000;
+}
+
+.icon-invalid::before {
+  content: "\2718";
+  font-family: 'IconicFill';
+  margin-right: 10px;
+}
+
+.tnt{
+  border-radius: 50%;
+  border:5px solid #000;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.counter{
+  background-color: #000;
+  border-top-left-radius: 25px 10px;
+  border-top-right-radius: 25px 10px;
+  color:white;
+  display: block;
+  font-size: 1.7em;
+  height: 50px;
+  text-align: center;
+  width:50px;
+}
+
+.cloud-back {
+  background-color: #000;
+  width: 50px;
+  height: 10px;
+  padding: 20px 50px;
+}
+
+.cloud {
+  background-color: #FFF;
+  border-radius: 48px;
+  display: inline-block;
+  height: 16px;
+  position: relative;
+  width: 48px;
+}
+
+.cloud::before, .cloud::after{
+  background-color: #FFF;
+  border-radius: 50%;
+  content: '';
+  position: absolute;
+  right: 7px;
+}
+
+.cloud::before{
+  height: 14px;
+  width: 14px;
+  top: -6px;
+}
+
+.cloud::after{
+  height: 23px;
+  width: 23px;
+  top:-10px;
+  left: 7px;
+}
+
+@font-face{
+  font-family: "Lobster";
+  font-style: normal;
+  src: local('Lobster'), url(/fonts/lobster.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'IconicFill';
+  src: url('iconic_fill.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
